@@ -14,8 +14,7 @@ for number in 0...100 {
     }                                       // by 5...
     if number % 2 == 0 {
         print("#\(number) par!!!")          // If number is even...
-    }
-    if number % 2 != 0 {
+    } else {
         print("#\(number) impar!!!")        // If number is odd...
     }
     if number >= 30 && number <= 40 {
